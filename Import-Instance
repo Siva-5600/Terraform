@@ -1,0 +1,9 @@
+/* Import manually created instance to terraform/
+   terraform version                           
+   terraform init                                                                                            
+   terraform state replace-provider -- -/aws registry.terraform.io/hashicorp/aws                                             
+   terraform import aws_instance.myinstance i-08c2f18ed426e321b                                              
+   terraform state list                                                                                      
+   terraform plan                                                                                           
+   terraform apply                                                                                           
+   terraform destroy 
